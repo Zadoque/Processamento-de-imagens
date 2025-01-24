@@ -1,7 +1,7 @@
 import cv2 as cv
 
 
-image = cv.imread('a.png')
+image = cv.imread('exemplo.png')
 
 if image is not None:
     cv.rectangle(image, (50,50),(200,200), (0,255,0), 3)

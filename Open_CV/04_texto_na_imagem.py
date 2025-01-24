@@ -1,6 +1,6 @@
 import cv2 as cv
 
-image = cv.imread('a.png')
+image = cv.imread('exemplo.png')
 
 if image is not None:
     cv.putText(image, 'Exemplo de texto na imagem', (20,50),cv.FONT_HERSHEY_SIMPLEX,1,(0,0,0), 4)

@@ -1,7 +1,7 @@
 #Primeiro importamos a biblioteca OpenCV
 import cv2 as cv
 
-image =  cv.imread('a_redimensionada.png') #lendo a imagem
+image =  cv.imread('a_redimensionadexemplo.png') #lendo a imagem
 
 if image is not None: #verifica se a imagem foi lida corretamente
     cv.imshow('primeira imagem',image) #mostrar a imagem em uma nova janela

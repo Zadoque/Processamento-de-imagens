@@ -1,7 +1,7 @@
 #Primeiro importamos a biblioteca OpenCV
 import cv2 as cv
 
-image =  cv.imread('a.PNG') #lendo a imagem
+image =  cv.imread('exemplo.png') #lendo a imagem
 
 if image is not None: #verifica se a imagem foi lida corretamente
     
@@ -10,7 +10,7 @@ if image is not None: #verifica se a imagem foi lida corretamente
 
     cv.imshow('imagem Redimensionada',image_redimensionada) #mostrar a imagem em uma nova janela
 
-    cv.imwrite('a_redimensionada.PNG', image_redimensionada) # salva a imagem redimensionada
+    cv.imwrite('a_redimensionada.png', image_redimensionada) # salva a imagem redimensionada
     #na mesma pasta do código
     5
     #As duas linhas abaixo são para esperar qualquer tecla para fechar as janelas
