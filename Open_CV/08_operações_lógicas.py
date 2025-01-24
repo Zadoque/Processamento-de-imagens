@@ -25,7 +25,7 @@ if image1 is not None and image2 is not None:
     xor_image = cv.bitwise_xor(image1, image2)
 
     ## Você pode ver o resultado de cada operação usando o comando cv.imshow que vc já
-    #aprendeu!
+    #aprendeu! 
 
     cv.waitKey(0)
     cv.destroyAllWindows()
