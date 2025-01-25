@@ -26,7 +26,7 @@ if image1 is not None and image2 is not None:
 
     ## Você pode ver o resultado de cada operação usando o comando cv.imshow que vc já
     #aprendeu! 
-
+    cv.imshow('imagem 2', or_image)
     cv.waitKey(0)
     cv.destroyAllWindows()
 else:
