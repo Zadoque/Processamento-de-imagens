@@ -14,6 +14,12 @@ if image is not None:
     cv.imshow('Detequição de borda sobelx', sobelx)
     cv.imshow('Detequição de borda sobely', sobely)
 
+    #Canny Método de detequição de borda
+
+    bordas = cv.Canny(image, 100, 200)
+
+    cv.imshow('Detequição de borda Canny', bordas)
+
     cv.waitKey(0)
     cv.destroyAllWindows()
 else:
